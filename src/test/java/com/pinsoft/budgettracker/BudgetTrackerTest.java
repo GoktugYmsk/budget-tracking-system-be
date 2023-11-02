@@ -1,13 +1,11 @@
-package com.example.demo;
+package com.pinsoft.budgettracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+public class BudgetTrackerTest {
 
-	@Test
-	void contextLoads() {
-	}
-
+  @Test
+  void test(){}
 }
