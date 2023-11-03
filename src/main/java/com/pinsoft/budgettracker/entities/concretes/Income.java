@@ -14,7 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class income {
+public class Income {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
