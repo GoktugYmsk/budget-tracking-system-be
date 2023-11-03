@@ -17,8 +17,6 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 public class income {
-    Date today = new Date();
-    DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
